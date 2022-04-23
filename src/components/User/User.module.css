@@ -1,0 +1,33 @@
+.errMsg{
+    color: red;
+}
+
+.spinner {
+    animation: spin infinite 5s linear;
+    width: 180px;
+    height: 180px;
+    /*You can increase or decrease the timer (5s) to 
+     increase or decrease the speed of the spinner*/
+  }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn{
+    background-color: burlywood;
+    color: whitesmoke;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+.btn:hover{
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,17 @@
+.fname {
+    padding: 5px 0;
+    font-weight: 900;
+  }
+  
+  .emial {
+    padding: 5px 0 15px 0;
+  }
+  
+  .profile {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #ddd;
+    display: inline-block;
+    margin: 20px;
+  }
+  
